@@ -11,3 +11,7 @@ Create a team from your terminal
 ## Link
 
 ## Technologies Used
+- Inquirer
+- Node.js
+- JavaScript
+- Bootstrap
