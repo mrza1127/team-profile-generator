@@ -55,7 +55,7 @@ const generateTeam = (team) => {
         <div class="card" style="width: 18rem;">
     <div class="card-header">
         ${intern.name}<br/>
-        <i class="fas fa-mug-hot"></i>Engineer</div>
+        <i class="fas fa-mug-hot"></i>Intern</div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${intern.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a></span></li>
@@ -90,7 +90,7 @@ module.exports = team => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEAM PROFILE GENERATOR</title>
     <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/dist/style.css"/>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
     <header>
